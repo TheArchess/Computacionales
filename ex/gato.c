@@ -19,7 +19,7 @@ int main()
 
 int findMaxInArr(int *parr, int sizeofArr)//funcion ahora si
 {
-    int max = *parr;
+    int max = *parr;//con el asterisco agarro el contenido de la variable, sin el asterisco es solo la direccion
 
     for(int i=1; i<6; i++)
     {
@@ -27,5 +27,9 @@ int findMaxInArr(int *parr, int sizeofArr)//funcion ahora si
         {
             max = (*parr);
         }
+
+        parr=parr+1;
     }
+
+    return max;
 }
