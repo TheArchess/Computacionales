@@ -40,3 +40,19 @@ int main(void){
 
 3. ¿Cómo queda almacenada en memoria la matriz nombres?
 */
+
+/* salida:
+Imprime el contenido de la dirección almacenada en a: fulano
+Imprime el contenido de la dirección almacenada en a+1: ulano
+Imprime el contenido de la dirección almacenada en b+0: fulano
+Imprime el contenido de la dirección almacenada en b+1: mengano
+Imprime el contenido de la dirección almacenada en b+2: perano
+Imprime el contenido de la dirección almacenada en c: fulano
+Imprime el contenido de la dirección almacenada en c+1:                     
+a  : 0x555555558020
+a+1: 0x555555558021
+b  : 0x555555558020
+b+1: 0x555555558034
+c  : 0x555555558020
+c+1: 0x55555555805c
+*/
