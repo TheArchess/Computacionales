@@ -15,7 +15,7 @@ int main()
     }
     printf("Con punteros\n");
     printf("Max: %d\n", max);
-    max = findMaxInArr2(arr, 6);
+    max = findMaxInArr2(arr, 6);//arr = direccion del  primer elemento arreglo, &arr es la direccion del arreglo, re raro
     printf("Con arreglos\n");
     printf("Max: %d\n", max);
 
@@ -36,6 +36,9 @@ int findMaxInArr(int *parr, int sizeofArr)//funcion ahora si
 
     return max;
 }
+
+//*(parr+i) es lo mismo que (parr[i])
+
 int findMaxInArr2(int *parr, int sizeofArr)
 {
     int max = parr[0];
