@@ -35,8 +35,11 @@ int main(void){
 }
 /*
 1. Explica qué hace la línea uint8_t sizeOfNombresElement = sizeof(nombres)/sizeof(nombres[0]);
+-Divide la cantidad total de nombres entre la cantidad de letras que tiene el primero nombre para saber la cantidad de elementos que hay?
 
 2. Observa el ciclo for. ¿Cuál es la función de (char *) en (char *)(b+i)?
+
+
 
 3. ¿Cómo queda almacenada en memoria la matriz nombres?
 */
